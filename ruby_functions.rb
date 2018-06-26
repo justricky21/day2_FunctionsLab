@@ -57,3 +57,7 @@ def number_to_short_month_name (month)
     return "Oct"
   end
 end
+
+def cubed_length (length)
+  length = length ** 3
+end

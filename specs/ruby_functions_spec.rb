@@ -78,13 +78,14 @@ class FunctionsTest < MiniTest::Test
   end
   #
 
-  # #Further
-  #
-  # #Given the length of a side of a cube calculate the volume
-  # def test_volume_of_cube()
-  #   #add test code here
-  # end
-  #
+  #Further
+
+  #Given the length of a side of a cube calculate the volume
+  def test_volume_of_cube()
+    volumetric_arithmetic = cubed_length (3)
+    assert_equal( 27, volumetric_arithmetic )
+  end
+
   # #Given the radius of a sphere calculate the volume
   # def test_volume_of_sphere()
   #   #add test code here
