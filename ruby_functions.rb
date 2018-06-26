@@ -61,3 +61,11 @@ end
 def cubed_length (length)
   length = length ** 3
 end
+
+def sphere_volume (radius)
+  return (((4*Math::PI)/3)*(radius**3))
+end
+
+def f_to_c_converter (temperature)
+  ((temperature - 32) * 5)/9
+end
