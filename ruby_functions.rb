@@ -35,3 +35,25 @@ def add_string_as_number(a, b)
     b = b.to_i
     return a+b
 end
+
+def number_to_full_month_name (month)
+  case month
+  when 1
+    return "January"
+  when 3
+    return "March"
+  when 9
+    return "September"
+  end
+end
+
+def number_to_short_month_name (month)
+  case month
+  when 1
+    return "Jan"
+  when 4
+    return "Apr"
+  when 10
+    return "Oct"
+  end
+end
